@@ -22,12 +22,6 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    getMsg({commit},msg){
-      console.log("changeMsg actions");
-      setTimeout(() => {
-        commit("changeMsg",msg)
-      }, 2000);
-    }
   },
   modules: {
   }

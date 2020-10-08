@@ -16,18 +16,8 @@ export default new Vuex.Store({
     },
   },
   mutations: {
-    changeMsg(state,payload){
-      console.log("changeMsg mutations");
-      state.msg = payload;
-    }
   },
   actions: {
-    getMsg({commit},msg){
-      console.log("changeMsg actions");
-      setTimeout(() => {
-        commit("changeMsg",msg)
-      }, 2000);
-    }
   },
   modules: {
   }
